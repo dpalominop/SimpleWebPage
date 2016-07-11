@@ -4,22 +4,34 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>SeedInnova</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+
+    <!-- Colors -->
+    <link href="css/css-index.css" rel="stylesheet" media="screen">
+    <!-- <link href="css/css-index-green.css" rel="stylesheet" media="screen"> -->
+    <!-- <link href="css/css-index-purple.css" rel="stylesheet" media="screen"> -->
+    <!-- <link href="css/css-index-red.css" rel="stylesheet" media="screen"> -->
+    <!-- <link href="css/css-index-orange.css" rel="stylesheet" media="screen"> -->
+    <!-- <link href="css/css-index-yellow.css" rel="stylesheet" media="screen"> -->
+
+     <!-- Google Fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,48 +42,11 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-scroll">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button >
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#somos">Somos</a>
-                    </li>
-                    <li>
-                        <a>Qué hacemos</a>
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="#emprendedores">Emprendedores</a>
-                                <a href="#empresas">Empresas</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#ya-lo-hicimos">Ya lo hicimos</a>
-                    </li>
-                    <li>
-                        <a href="#contactanos">Contáctanos</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+    <!-- /.preloader -->
+    <div id="preloader"></div>
+    <div id="top"></div>
 
     <!-- Header -->
     <a name="intro"></a>
@@ -90,6 +65,33 @@
 
     </div>
     <!-- /.intro-header -->
+
+    <!-- NAVIGATION -->
+    <div id="menu">
+        <nav class="navbar-wrapper navbar-default" role="navigation">
+            <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-backyard">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand site-name" href="#top"><img src="resources/logos/logo_seedinnova_opt.png" alt="logo"></a>
+                  </div>
+         
+                  <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#somos">Somos</a></li>
+                        <li><a href="#emprendedores">Emprendedores</a></li>
+                        <li><a href="#empresas">Empresas</a></li>
+                        <li><a href="#ya-lo-hicimos">Ya lo hicimos</a></li>
+                        <li><a href="#contactanos">Contáctanos</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </div>
 
     <!-- Page Content -->
 
@@ -552,11 +554,16 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
+    <!-- /.javascript files -->
     <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
