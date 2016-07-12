@@ -157,6 +157,123 @@ a:hover {
 	height: 37px
 }
 
+.g-aiPstyle1 {
+    font-size:27px;
+    line-height:32px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle2 {
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#001a5a;
+}
+.g-aiPstyle3 {
+    font-size:20px;
+    line-height:24px;
+    text-align:center;
+    color:#444242;
+}
+.g-aiPstyle4 {
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#444242;
+}
+.g-aiPstyle5 {
+    font-size:26px;
+    line-height:31px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle6 {
+    font-size:18px;
+    line-height:22px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle7 {
+    font-size:16px;
+    line-height:20px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle8 {
+    line-height:15px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle9 {
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#808080;
+}
+.g-aiPstyle10 {
+    font-size:35px;
+    line-height:42px;
+    color:#ffffff;
+}
+.g-aiPstyle11 {
+    font-size:80px;
+    line-height:96px;
+    text-align:center;
+    color:#ffffff;
+}
+.g-aiPstyle12 {
+    font-size:60px;
+    line-height:72px;
+    text-align:center;
+    color:#ffffff;
+}
+.g-aiPstyle13 {
+    font-size:16px;
+    line-height:19px;
+    color:#ffffff;
+}
+.g-aiPstyle14 {
+    font-size:25px;
+    line-height:30px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle15 {
+    font-size:20px;
+    line-height:24px;
+    text-align:right;
+    color:#727176;
+}
+.g-aiPstyle16 {
+    font-size:20px;
+    line-height:24px;
+    text-align:justify;
+    color:#ffffff;
+}
+.g-aiPstyle17 {
+    font-size:70px;
+    line-height:84px;
+    text-align:center;
+    color:#808080;
+}
+.g-aiPstyle18 {
+    font-size:17px;
+    line-height:20px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPstyle19 {
+    font-size:20px;
+    line-height:24px;
+    color:#000000;
+}
+.g-aiPstyle20 {
+    font-size:20px;
+    line-height:24px;
+    text-align:center;
+    color:#000000;
+}
+.g-aiPtransformed p { white-space: nowrap; }
 .logo {
 	margin: 100px 0 40px 0;
 }
