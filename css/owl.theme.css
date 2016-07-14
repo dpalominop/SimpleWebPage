@@ -75,5 +75,5 @@
 /* preloading images */
 .owl-item.loading{
 	min-height: 150px;
-	background: url(../images/loading.gif) no-repeat center center
+	background: url(../resources/img/loading.gif) no-repeat center center
 }
