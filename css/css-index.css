@@ -374,6 +374,228 @@ a:hover {
 	font-weight: 300;
 	margin: 15px 0 15px 0;
 }
+
+#somos h2{
+	font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#001a5a;
+}
+#somos p{
+    font-size:20px;
+    line-height:24px;
+    text-align:center;
+    color:#444242;
+}
+
+#emprendedores h2{
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#444242;
+}
+
+#emprendedores h3{
+    font-size:18px;
+    line-height:22px;
+    text-align:center;
+    color:#000000;
+}
+
+#emprendedores p{
+    font-size:26px;
+    line-height:31px;
+    text-align:center;
+    color:#000000;
+}
+
+#emprendedores-beneficios{
+	padding-top: 50px;
+}
+
+#emprendedores-beneficios h2{
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#808080;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 180px;
+}
+
+#emprendedores-beneficios h3{
+    font-size:35px;
+    line-height:42px;
+    color:#ffffff;
+    padding-top: 30px;
+}
+
+#emprendedores-beneficios .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#emprendedores-beneficios .row {
+	padding-top: 50px;
+}
+
+#emprendedores-ofrecemos h2{
+    font-size:80px;
+    line-height:96px;
+    text-align:center;
+    color:#ffffff;
+}
+
+#emprendedores-ofrecemos h3{
+    font-size:60px;
+    line-height:72px;
+    text-align:center;
+    color:#ffffff;
+}
+
+#emprendedores-ofrecemos p{
+    font-size:16px;
+    line-height:19px;
+    color:#ffffff;
+    padding: 0;
+}
+
+#emprendedores-ofrecemos .container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#empresas h2{
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#444242;
+}
+
+#empresas h3{
+    font-size:18px;
+    line-height:22px;
+    text-align:center;
+    color:#000000;
+}
+
+#empresas p{
+    font-size:26px;
+    line-height:31px;
+    text-align:center;
+    color:#000000;
+}
+
+#empresas-beneficios{
+	padding-top: 50px;
+}
+
+#empresas-beneficios h2{
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#808080;
+
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 120px;
+}
+
+#empresas-beneficios h3{
+    font-size:35px;
+    line-height:42px;
+    color:#ffffff;
+    padding-top: 0;
+}
+
+#empresas-beneficios .container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#empresas-beneficios .row {
+	padding-top: 100px;
+}
+
+#empresas-ofrecemos h2{
+    font-size:80px;
+    line-height:96px;
+    text-align:center;
+    color:#ffffff;
+}
+
+#empresas-ofrecemos h3{
+    font-size:60px;
+    line-height:72px;
+    text-align:center;
+    color:#ffffff;
+}
+
+#empresas-ofrecemos p{
+    font-size:16px;
+    line-height:19px;
+    color:#ffffff;
+    padding: 0;
+}
+
+#empresas-ofrecemos .container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#ya-lo-hicimos h2{
+    font-size:95px;
+    line-height:114px;
+    text-align:center;
+    color:#444242;
+    padding-bottom: 50px;
+}
+
+#ya-lo-hicimos .container{
+    padding-top: 50px;
+}
+
+#contactanos h2{
+    font-size:70px;
+    line-height:84px;
+    text-align:center;
+    color:#808080;
+    padding: 0;
+}
+
+#contactanos h3{
+    font-size:17px;
+    line-height:20px;
+    text-align:center;
+    color:#000000;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+#contactanos p{
+    font-size:20px;
+    line-height:24px;
+    text-align:center;
+    color:#000000;
+}
+
+#contactanos label{
+    font-size:18px;
+    line-height:24px;
+    color:#000000;
+}
+
+#contactanos .container{
+    padding-top: 50px;
+}
+
 .intro-pic {
 	margin-top: 20px;
 }
@@ -1089,10 +1311,13 @@ and (orientation : landscape) {
 		padding-left: 5px;
 	}
 	.action h2 {
-		font-size: 30px;
+		/*font-size: 30px;*/
 	}
 	.button-demo li {
 		padding-bottom: 50px;
+	}
+	#somos h2{
+		font-size: 60px
 	}
 }
 
@@ -1100,6 +1325,9 @@ and (orientation : landscape) {
 @media (max-width: 360px) {
 	#intro h2, #feature h2, #feature-2 h2 {
 		font-size: 30px;
+	}
+	#somos h2{
+		font-size: 40px;
 	}
 	.feat-list i {
 		padding-left: 0;
