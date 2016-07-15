@@ -942,9 +942,7 @@ a:hover {
 }
 
 /* Galaxy Note 4 (portrait) ----------- */
-@media (min-width : 360px) 
-and (max-width : 640px) 
-and (orientation : portrait) {
+@media (max-width : 2560px){
 	.head-btn {
 		margin: 50px 0 100px;
 	}
@@ -1136,7 +1134,7 @@ and (orientation : portrait) {
 }
 
 /* Galaxy Note 4 (landscape) ----------- */
-@media (min-width : 1440px) 
+@media (min-width : 1024px) 
 and (max-width : 2560px) 
 and (orientation : landscape) {
 	.logo {
@@ -1734,7 +1732,7 @@ and (orientation : landscape) {
 	#bottom-action {
 		text-align: center;
 	}
-	
+
 	#somos h2{
 		font-size:50px;
 	    line-height:54px;
