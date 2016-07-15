@@ -910,9 +910,9 @@ and (orientation : landscape) {
 	.subscribe-form {
 		margin: 20px auto 100px;
 	}
-	.action h2 {
+	/*.action h2 {
 		margin-top: 70px;
-	}
+	}*/
 	.download-cta {
 		padding: 50px 0 100px;
 	}
@@ -959,9 +959,9 @@ and (orientation : landscape) {
 		line-height: 25px;
 		font-size: 18px;
 	}
-	.action h2 {
+	/*.action h2 {
 		margin: 50px 0 20px;
-	}
+	}*/
 	.download-text p {
 		line-height: 1.5;	
 	}
@@ -972,11 +972,25 @@ and (orientation : landscape) {
 	.feat-list i {
 		padding-left: 5px;
 	}
-	.action h2 {
+	/*.action h2 {
 		font-size: 30px;
-	}
+		
+	}*/
 	.button-demo li {
 		padding-bottom: 50px;
+	}
+
+	#somos h2{
+		font-size:50px;
+	    line-height:54px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:44px;
+	    text-align:center;
+	    color:#444242;
 	}
 }
 
@@ -993,6 +1007,19 @@ and (orientation : landscape) {
 	}
 	.video-header {
 		margin: 30px 0 30px;
+	}
+
+	#somos h2{
+		font-size:50px;
+	    line-height:54px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:44px;
+	    text-align:center;
+	    color:#444242;
 	}
 }
 
@@ -1028,12 +1055,25 @@ and (orientation : landscape) {
 	.subscribe-form button {
 		padding: 0 15px;
 	}
-	.action h2 {
+	/*.action h2 {
 		margin: 70px 0 20px;
-	}
+	}*/
 	.table > thead > tr > th, 
 	.table > tbody > tr > td { 
 		padding: 20px 10px; 
+	}
+
+	#somos h2{
+		font-size:50px;
+	    line-height:114px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:114px;
+	    text-align:center;
+	    color:#444242;
 	}
 }
 
