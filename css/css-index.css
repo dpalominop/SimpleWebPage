@@ -941,10 +941,9 @@ a:hover {
 	font-size: 14px;
 }
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-width : 1440px) 
-and (max-width : 2560px) 
+/* Galaxy Note 4 (portrait) ----------- */
+@media (min-width : 360px) 
+and (max-width : 640px) 
 and (orientation : portrait) {
 	.head-btn {
 		margin: 50px 0 100px;
@@ -1005,7 +1004,7 @@ and (orientation : portrait) {
 	}
 
 	#somos h2{
-		font-size:80px;
+		font-size:8px;
 	    line-height:54px;
 	    text-align:center;
 	    color:#001a5a;
@@ -1136,9 +1135,8 @@ and (orientation : portrait) {
 	}
 }
 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-width : 1440px) 
+/* Galaxy Note 4 (landscape) ----------- */
+@media (min-width : 1440px) 
 and (max-width : 2560px) 
 and (orientation : landscape) {
 	.logo {
@@ -1816,6 +1814,18 @@ and (orientation : landscape) {
 	}*/
 	.download-text p {
 		line-height: 1.5;	
+	}
+	#somos h2{
+		font-size:50px;
+	    line-height:54px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:44px;
+	    text-align:center;
+	    color:#444242;
 	}
 }
 
