@@ -941,367 +941,6 @@ a:hover {
 	font-size: 14px;
 }
 
-/* Galaxy Note 4 (portrait) ----------- */
-@media only screen and (max-width : 2560px){
-	.head-btn {
-		margin: 50px 0 100px;
-	}
-	.signup-header {
-		margin: 50px 0 100px;
-	}
-	.price-feature li {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-	.btn-price {
-		padding: 7px 25px;
-	}
-	#intro {
-		padding: 30px 0 50px;
-	}
-	#policy {
-		padding: 30px 0 50px;
-	}
-	#intro h2, #feature-2 h2 {
-		text-align: center;
-	}
-	#intro p, #feature-2 p {
-		text-align: center;
-	}
-	.btn-section {
-		text-align: center;
-	}
-	#feature {
-		padding-top: 75px;
-	}
-	.feature-img {
-		margin-top: 0;
-	}	
-	.row-feat {
-		padding-top: 10px;
-		padding-bottom: 40px;
-	}
-	#feature-2 {
-		padding: 80px 0 80px;
-	}
-	.feature-2-pic {
-		margin-top: 40px;
-	}
-	#client img {
-		margin: 10px 0 10px;
-		max-height: 40px;
-	}	
-	.video-header {
-		margin: 50px 0 30px;
-	}
-	#bottom-action {
-		text-align: center;
-	}
-	.button-demo li {
-		padding-bottom: 50px;
-	}
-
-	#somos h2{
-		font-size:8px;
-	    line-height:54px;
-	    text-align:center;
-	    color:#001a5a;
-	}
-	#somos p{
-	    font-size:25px;
-	    line-height:24px;
-	    text-align:center;
-	    color:#444242;
-	}
-	#emprendedores h2{
-	    font-size:80px;
-	    line-height:80px;
-	    text-align:center;
-	    color:#444242;
-	}
-	#emprendedores h3{
-	    font-size:20px;
-	    line-height:22px;
-	    text-align:center;
-	    color:#000000;
-	    padding: 0;
-	    padding-bottom: 50px;
-	}
-	#emprendedores p{
-	    font-size:26px;
-	    line-height:31px;
-	    text-align:center;
-	    color:#000000;
-	}
-	#emprendedores-beneficios h2{
-	    font-size:95px;
-	    line-height:114px;
-	    text-align:center;
-	    color:#808080;
-
-	    -webkit-transform: rotate(-90deg);
-	    -moz-transform: rotate(-90deg);
-	    display: block;
-	    position: absolute;
-	    right: -150px;
-	    top: 150px;
-	}
-	#emprendedores-beneficios h3{
-	    font-size:35px;
-	    line-height:42px;
-	    color:#ffffff;
-	    padding: 0;
-	}
-	#emprendedores-ofrecemos h2{
-	    font-size:80px;
-	    line-height:60px;
-	    text-align:center;
-	    color:#ffffff;
-	    padding-bottom: 50px;
-	}
-	#emprendedores-ofrecemos h3{
-	    font-size:50px;
-	    line-height:50px;
-	    text-align:center;
-	    color:#ffffff;
-	}
-	#emprendedores-ofrecemos p{
-	    font-size:20px;
-	    line-height:20px;
-	    color:#ffffff;
-	    padding: 0;
-	    text-align: center;
-	}
-	#empresas h2{
-	    font-size:95px;
-	    line-height:114px;
-	    text-align:center;
-	    color:#444242;
-	}
-	#empresas h3{
-	    font-size:20px;
-	    line-height:20px;
-	    text-align:center;
-	    color:#000000;
-	    padding: 0;
-	    padding-bottom: 50px;
-	}
-	#empresas p{
-	    font-size:26px;
-	    line-height:31px;
-	    text-align:center;
-	    color:#000000;
-	}
-	#empresas-beneficios h2{
-	    font-size:95px;
-	    line-height:114px;
-	    text-align:center;
-	    color:#808080;
-
-	    -webkit-transform: rotate(-90deg);
-	    -moz-transform: rotate(-90deg);
-	    display: block;
-	    position: absolute;
-	    right: -150px;
-	    top: 150px;
-	}
-	#empresas-beneficios h3{
-	    font-size:35px;
-	    line-height:42px;
-	    color:#ffffff;
-	    padding: 0;
-	}
-	#empresas-ofrecemos h2{
-	    font-size:80px;
-	    line-height:60px;
-	    text-align:center;
-	    color:#ffffff;
-	    padding-bottom: 50px;
-	}
-	#empresas-ofrecemos h3{
-	    font-size:50px;
-	    line-height:50px;
-	    text-align:center;
-	    color:#ffffff;
-	}
-	#empresas-ofrecemos p{
-	    font-size:20px;
-	    line-height:20px;
-	    color:#ffffff;
-	    padding: 0;
-	    text-align: center;
-	}
-}
-
-/* Galaxy Note 4 (landscape) ----------- */
-@media (min-width : 1024px) 
-and (max-width : 2560px) 
-and (orientation : landscape) {
-	.logo {
-		margin: 100px 0 30px 0;
-	}
-	.landing h1{
-		margin: 60px 0 60px 0;
-	}	
-	.landing-text {
-		margin: 60px 0 40px 0;
-	}
-	.signup-header {
-		margin-top: 250px;
-	}
-	.intro-pic {
-		margin-top: 100px;
-	}
-	.feature-img {
-		margin-top: 30px;
-	}	
-	.feat-list {
-		margin-top: 10px;
-	}
-	.feat-list p {
-		font-size: 15px;
-	}
-	.feature-2-pic {
-		margin-top: 50px;
-	}
-	#client img {
-		max-height: 45px;
-	}	
-	.video-header {
-		margin: 50px 0 30px;
-	}
-
-	#somos h2{
-		font-size:100px;
-	    line-height:54px;
-	    text-align:center;
-	    color:#001a5a;
-	}
-	#somos p{
-	    font-size:30px;
-	    line-height:24px;
-	    text-align:center;
-	    color:#444242;
-	}
-	#emprendedores h2{
-	    font-size:100px;
-	    line-height:90px;
-	    text-align:center;
-	    color:#444242;
-	}
-	#emprendedores h3{
-	    font-size:20px;
-	    line-height:20px;
-	    text-align:center;
-	    color:#000000;
-	    padding-top: 50px;
-	}
-	#emprendedores p{
-	    font-size:36px;
-	    line-height:31px;
-	    text-align:center;
-	    color:#000000;
-	}
-
-	#emprendedores-beneficios h2{
-	    font-size:95px;
-	    line-height:114px;
-	    text-align:center;
-	    color:#808080;
-
-	    -webkit-transform: rotate(-90deg);
-	    -moz-transform: rotate(-90deg);
-	    display: block;
-	    position: absolute;
-	    right: -140px;
-	    top: 120px;
-	}
-	#emprendedores-beneficios h3{
-	    font-size:35px;
-	    line-height:42px;
-	    color:#ffffff;
-	    padding-top: 0;
-	}
-	#emprendedores-ofrecemos h2{
-	    font-size:80px;
-	    line-height:80px;
-	    text-align:center;
-	    color:#ffffff;
-	    padding-bottom: 50px;
-	}
-	#emprendedores-ofrecemos h3{
-	    font-size:50px;
-	    line-height:50px;
-	    text-align:center;
-	    color:#ffffff;
-	}
-	#emprendedores-ofrecemos p{
-	    font-size:20px;
-	    line-height:20px;
-	    color:#ffffff;
-	    padding: 0;
-	    text-align: center;
-	}
-	#empresas h2{
-	    font-size:100px;
-	    line-height:94px;
-	    text-align:center;
-	    color:#444242;
-	}
-	#empresas h3{
-	    font-size:20px;
-	    line-height:20px;
-	    text-align:center;
-	    color:#000000;
-	    padding-top: 50px;
-	}
-	#empresas p{
-	    font-size:36px;
-	    line-height:31px;
-	    text-align:center;
-	    color:#000000;
-	}
-	#empresas-beneficios h2{
-	    font-size:95px;
-	    line-height:114px;
-	    text-align:center;
-	    color:#808080;
-
-	    -webkit-transform: rotate(-90deg);
-	    -moz-transform: rotate(-90deg);
-	    display: block;
-	    position: absolute;
-	    right: -140px;
-	    top: 110px;
-	}
-	#empresas-beneficios h3{
-	    font-size:35px;
-	    line-height:42px;
-	    color:#ffffff;
-	    padding: 0;
-	}
-	#empresas-ofrecemos h2{
-	    font-size:80px;
-	    line-height:80px;
-	    text-align:center;
-	    color:#ffffff;
-	    padding-bottom: 50px;
-	}
-	#empresas-ofrecemos h3{
-	    font-size:50px;
-	    line-height:50px;
-	    text-align:center;
-	    color:#ffffff;
-	}
-	#empresas-ofrecemos p{
-	    font-size:20px;
-	    line-height:20px;
-	    color:#ffffff;
-	    padding: 0;
-	    text-align: center;
-	}
-}
-
 
 /* iPads (portrait) ----------- */
 @media only screen 
@@ -1669,7 +1308,7 @@ and (orientation : landscape) {
 }
 
 /* smart-phone ----------- */
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
 	.logo {
 		margin: 40px 0 30px 0;
 	}
@@ -1732,41 +1371,16 @@ and (orientation : landscape) {
 	#bottom-action {
 		text-align: center;
 	}
-
-	#somos h2{
-		font-size:50px;
-	    line-height:54px;
-	    text-align:center;
-	    color:#001a5a;
-	}
-	#emprendedores h2{
-	    font-size:45px;
-	    line-height:44px;
-	    text-align:center;
-	    color:#444242;
-	}
 }	
 /* iPhone 6Plus (landscape) ----------- */
 @media (max-width: 736px) {
 	.feature-img {
 		margin-top: 0;
 	}
-	#somos h2{
-		font-size:50px;
-	    line-height:54px;
-	    text-align:center;
-	    color:#001a5a;
-	}
-	#emprendedores h2{
-	    font-size:45px;
-	    line-height:44px;
-	    text-align:center;
-	    color:#444242;
-	}
 }
 
 /* iPhone 6 (landscape) ----------- */
-@media only screen and (max-width: 667px) {
+@media (max-width: 667px) {
 	.logo {
 		margin: 30px 0 30px 0;
 	}
@@ -1789,23 +1403,10 @@ and (orientation : landscape) {
 	.download-cta {
 		padding: 50px 0 100px;
 	}
-
-	#somos h2{
-		font-size:50px;
-	    line-height:54px;
-	    text-align:center;
-	    color:#001a5a;
-	}
-	#emprendedores h2{
-	    font-size:45px;
-	    line-height:44px;
-	    text-align:center;
-	    color:#444242;
-	}
 }
 
 /* iPhone 5 (landscape) ----------- */
-@media only screen and (max-width: 568px){
+@media (max-width: 568px){
 	.logo {
 		margin: 15px 0 15px 0;
 	}
@@ -1851,22 +1452,10 @@ and (orientation : landscape) {
 	.download-text p {
 		line-height: 1.5;	
 	}
-	#somos h2{
-		font-size:50px;
-	    line-height:54px;
-	    text-align:center;
-	    color:#001a5a;
-	}
-	#emprendedores h2{
-	    font-size:45px;
-	    line-height:44px;
-	    text-align:center;
-	    color:#444242;
-	}
 }
 
 /* iPhone 4 (landscape) ----------- */
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
 	.feat-list i {
 		padding-left: 5px;
 	}
@@ -1893,7 +1482,7 @@ and (orientation : landscape) {
 }
 
 /* smart phone width: 360px ----------- */
-@media only screen and (max-width: 360px) {
+@media (max-width: 360px) {
 	#intro h2, #feature h2, #feature-2 h2 {
 		font-size: 30px;
 	}
@@ -1922,7 +1511,7 @@ and (orientation : landscape) {
 }
 
 /* iPhone 4/5 (portrait) ----------- */
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
 	.logo {
 		margin: 30px 0 20px 0;
 	}
