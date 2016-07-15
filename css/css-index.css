@@ -1734,11 +1734,36 @@ and (orientation : landscape) {
 	#bottom-action {
 		text-align: center;
 	}
+	
+	#somos h2{
+		font-size:50px;
+	    line-height:54px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:44px;
+	    text-align:center;
+	    color:#444242;
+	}
 }	
 /* iPhone 6Plus (landscape) ----------- */
 @media (max-width: 736px) {
 	.feature-img {
 		margin-top: 0;
+	}
+	#somos h2{
+		font-size:50px;
+	    line-height:54px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:44px;
+	    text-align:center;
+	    color:#444242;
 	}
 }
 
@@ -1765,6 +1790,19 @@ and (orientation : landscape) {
 	}*/
 	.download-cta {
 		padding: 50px 0 100px;
+	}
+
+	#somos h2{
+		font-size:50px;
+	    line-height:54px;
+	    text-align:center;
+	    color:#001a5a;
+	}
+	#emprendedores h2{
+	    font-size:45px;
+	    line-height:44px;
+	    text-align:center;
+	    color:#444242;
 	}
 }
 
