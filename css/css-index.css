@@ -945,7 +945,7 @@ a:hover {
 /* iPads (portrait) ----------- */
 @media only screen 
 and (min-width : 768px) 
-and (max-width : 1024px) 
+and (max-width : 1440px) 
 and (orientation : portrait) {
 	.head-btn {
 		margin: 50px 0 100px;
@@ -1140,7 +1140,7 @@ and (orientation : portrait) {
 /* iPads (landscape) ----------- */
 @media only screen 
 and (min-width : 768px) 
-and (max-width : 1024px) 
+and (max-width : 1440px) 
 and (orientation : landscape) {
 	.logo {
 		margin: 100px 0 30px 0;
