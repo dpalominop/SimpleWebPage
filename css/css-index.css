@@ -256,6 +256,10 @@ a:hover {
 	margin: 15px 0 15px 0;
 }
 
+#portada .container{
+	padding-top: 20px;
+}
+
 #somos h2{
 	font-size:95px;
     line-height:114px;
@@ -268,6 +272,9 @@ a:hover {
     text-align:center;
     color:#444242;
 }
+#somos .container{
+	padding-top: 250px;
+}
 
 #emprendedores h2{
     font-size:95px;
@@ -275,25 +282,29 @@ a:hover {
     text-align:center;
     color:#444242;
 }
-
 #emprendedores h3{
     font-size:18px;
     line-height:22px;
     text-align:center;
     color:#000000;
+    padding-top: 50px;
 }
-
 #emprendedores p{
     font-size:26px;
     line-height:31px;
     text-align:center;
     color:#000000;
 }
+#emprendedores .container{
+	padding-top: 50px;
+}
+#emprendedores .mislogos{
+	padding-top: 50px
+}
 
 #emprendedores-beneficios{
 	padding-top: 50px;
 }
-
 #emprendedores-beneficios h2{
     font-size:95px;
     line-height:114px;
@@ -307,19 +318,16 @@ a:hover {
     right: -100px;
     top: 180px;
 }
-
 #emprendedores-beneficios h3{
     font-size:35px;
     line-height:42px;
     color:#ffffff;
     padding-top: 30px;
 }
-
 #emprendedores-beneficios .container{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 #emprendedores-beneficios .row {
 	padding-top: 50px;
 }
@@ -330,21 +338,18 @@ a:hover {
     text-align:center;
     color:#ffffff;
 }
-
 #emprendedores-ofrecemos h3{
     font-size:60px;
     line-height:72px;
     text-align:center;
     color:#ffffff;
 }
-
 #emprendedores-ofrecemos p{
     font-size:16px;
     line-height:19px;
     color:#ffffff;
     padding: 0;
 }
-
 #emprendedores-ofrecemos .container{
     padding-top: 50px;
     padding-bottom: 100px;
@@ -356,21 +361,19 @@ a:hover {
     text-align:center;
     color:#444242;
 }
-
 #empresas h3{
     font-size:18px;
     line-height:22px;
     text-align:center;
     color:#000000;
+    padding-top: 50px;
 }
-
 #empresas p{
     font-size:26px;
     line-height:31px;
     text-align:center;
     color:#000000;
 }
-
 #empresas .container{
     padding-top: 50px;
 }
@@ -378,7 +381,6 @@ a:hover {
 #empresas-beneficios{
 	padding-top: 50px;
 }
-
 #empresas-beneficios h2{
     font-size:95px;
     line-height:114px;
@@ -392,19 +394,16 @@ a:hover {
     right: -100px;
     top: 120px;
 }
-
 #empresas-beneficios h3{
     font-size:35px;
     line-height:42px;
     color:#ffffff;
     padding-top: 0;
 }
-
 #empresas-beneficios .container{
     padding-top: 150px;
     padding-bottom: 150px;
 }
-
 #empresas-beneficios .row {
 	padding-top: 100px;
 }
@@ -415,21 +414,18 @@ a:hover {
     text-align:center;
     color:#ffffff;
 }
-
 #empresas-ofrecemos h3{
     font-size:60px;
     line-height:72px;
     text-align:center;
     color:#ffffff;
 }
-
 #empresas-ofrecemos p{
     font-size:16px;
     line-height:19px;
     color:#ffffff;
     padding: 0;
 }
-
 #empresas-ofrecemos .container{
     padding-top: 50px;
     padding-bottom: 100px;
@@ -442,7 +438,6 @@ a:hover {
     color:#444242;
     padding-bottom: 50px;
 }
-
 #ya-lo-hicimos .container{
     padding-top: 50px;
 }
@@ -454,7 +449,6 @@ a:hover {
     color:#808080;
     padding: 0;
 }
-
 #contactanos h3{
     font-size:17px;
     line-height:20px;
@@ -463,22 +457,24 @@ a:hover {
     padding-top: 0;
     padding-bottom: 50px;
 }
-
 #contactanos p{
     font-size:20px;
     line-height:24px;
     text-align:center;
     color:#000000;
+    padding-top: 50px;
 }
-
 #contactanos label{
     font-size:18px;
     line-height:24px;
     color:#000000;
 }
-
 #contactanos .container{
     padding-top: 50px;
+}
+
+#footer .copyright{
+	font-size: 14px;
 }
 
 .intro-pic {
@@ -939,6 +935,8 @@ a:hover {
 .control-group .controls {
 	overflow-x: hidden;
 }
+
+
 /* iPads (portrait) ----------- */
 @media only screen 
 and (min-width : 768px) 
