@@ -1054,6 +1054,26 @@ and (orientation : portrait) {
 	    color:#ffffff;
 	    padding: 0;
 	}
+	#emprendedores-ofrecemos h2{
+	    font-size:80px;
+	    line-height:60px;
+	    text-align:center;
+	    color:#ffffff;
+	    padding-bottom: 50px;
+	}
+	#emprendedores-ofrecemos h3{
+	    font-size:50px;
+	    line-height:50px;
+	    text-align:center;
+	    color:#ffffff;
+	}
+	#emprendedores-ofrecemos p{
+	    font-size:20px;
+	    line-height:20px;
+	    color:#ffffff;
+	    padding: 0;
+	    text-align: center;
+	}
 	#empresas h2{
 	    font-size:95px;
 	    line-height:114px;
@@ -1092,6 +1112,26 @@ and (orientation : portrait) {
 	    line-height:42px;
 	    color:#ffffff;
 	    padding: 0;
+	}
+	#empresas-ofrecemos h2{
+	    font-size:80px;
+	    line-height:60px;
+	    text-align:center;
+	    color:#ffffff;
+	    padding-bottom: 50px;
+	}
+	#empresas-ofrecemos h3{
+	    font-size:50px;
+	    line-height:50px;
+	    text-align:center;
+	    color:#ffffff;
+	}
+	#empresas-ofrecemos p{
+	    font-size:20px;
+	    line-height:20px;
+	    color:#ffffff;
+	    padding: 0;
+	    text-align: center;
 	}
 }
 
@@ -1185,6 +1225,26 @@ and (orientation : landscape) {
 	    color:#ffffff;
 	    padding-top: 0;
 	}
+	#emprendedores-ofrecemos h2{
+	    font-size:80px;
+	    line-height:80px;
+	    text-align:center;
+	    color:#ffffff;
+	    padding-bottom: 50px;
+	}
+	#emprendedores-ofrecemos h3{
+	    font-size:50px;
+	    line-height:50px;
+	    text-align:center;
+	    color:#ffffff;
+	}
+	#emprendedores-ofrecemos p{
+	    font-size:20px;
+	    line-height:20px;
+	    color:#ffffff;
+	    padding: 0;
+	    text-align: center;
+	}
 	#empresas h2{
 	    font-size:100px;
 	    line-height:94px;
@@ -1222,6 +1282,26 @@ and (orientation : landscape) {
 	    line-height:42px;
 	    color:#ffffff;
 	    padding: 0;
+	}
+	#empresas-ofrecemos h2{
+	    font-size:80px;
+	    line-height:80px;
+	    text-align:center;
+	    color:#ffffff;
+	    padding-bottom: 50px;
+	}
+	#empresas-ofrecemos h3{
+	    font-size:50px;
+	    line-height:50px;
+	    text-align:center;
+	    color:#ffffff;
+	}
+	#empresas-ofrecemos p{
+	    font-size:20px;
+	    line-height:20px;
+	    color:#ffffff;
+	    padding: 0;
+	    text-align: center;
 	}
 }
 
