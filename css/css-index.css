@@ -775,17 +775,17 @@ a:hover {
     display: block;
     position: absolute;
     right: -100px;
-    top: 180px;
+    top: 140px;
 }
 #emprendedores-beneficios h3{
     font-size:35px;
     line-height:42px;
     color:#ffffff;
-    padding-top: 30px;
+    padding-top: 0px;
 }
 #emprendedores-beneficios .container{
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 #emprendedores-beneficios .row {
 	padding-top: 50px;
@@ -864,7 +864,7 @@ a:hover {
 }
 #empresas-beneficios .container{
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 #empresas-beneficios .row {
 	padding-top: 100px;
@@ -1035,15 +1035,6 @@ and (orientation : portrait) {
 	    text-align:center;
 	    color:#000000;
 	}
-	#emprendedores .container{
-		padding-top: 50px;
-	}
-	#emprendedores .mislogos{
-		padding-top: 50px
-	}
-	#emprendedores-beneficios{
-		padding-top: 50px;
-	}
 	#emprendedores-beneficios h2{
 	    font-size:95px;
 	    line-height:114px;
@@ -1054,21 +1045,14 @@ and (orientation : portrait) {
 	    -moz-transform: rotate(-90deg);
 	    display: block;
 	    position: absolute;
-	    right: -100px;
-	    top: 180px;
+	    right: -150px;
+	    top: 150px;
 	}
 	#emprendedores-beneficios h3{
 	    font-size:35px;
 	    line-height:42px;
 	    color:#ffffff;
-	    padding-top: 30px;
-	}
-	#emprendedores-beneficios .container{
-	    padding-top: 50px;
-	    padding-bottom: 50px;
-	}
-	#emprendedores-beneficios .row {
-		padding-top: 50px;
+	    padding: 0;
 	}
 	#empresas h2{
 	    font-size:95px;
@@ -1089,6 +1073,25 @@ and (orientation : portrait) {
 	    line-height:31px;
 	    text-align:center;
 	    color:#000000;
+	}
+	#empresas-beneficios h2{
+	    font-size:95px;
+	    line-height:114px;
+	    text-align:center;
+	    color:#808080;
+
+	    -webkit-transform: rotate(-90deg);
+	    -moz-transform: rotate(-90deg);
+	    display: block;
+	    position: absolute;
+	    right: -150px;
+	    top: 150px;
+	}
+	#empresas-beneficios h3{
+	    font-size:35px;
+	    line-height:42px;
+	    color:#ffffff;
+	    padding: 0;
 	}
 }
 
@@ -1173,7 +1176,7 @@ and (orientation : landscape) {
 	    -moz-transform: rotate(-90deg);
 	    display: block;
 	    position: absolute;
-	    right: -100px;
+	    right: -140px;
 	    top: 120px;
 	}
 	#emprendedores-beneficios h3{
@@ -1181,13 +1184,6 @@ and (orientation : landscape) {
 	    line-height:42px;
 	    color:#ffffff;
 	    padding-top: 0;
-	}
-	#emprendedores-beneficios .container{
-	    padding-top: 100px;
-	    padding-bottom: 150px;
-	}
-	#emprendedores-beneficios .row{
-		padding-top: 50px;
 	}
 	#empresas h2{
 	    font-size:100px;
@@ -1207,6 +1203,25 @@ and (orientation : landscape) {
 	    line-height:31px;
 	    text-align:center;
 	    color:#000000;
+	}
+	#empresas-beneficios h2{
+	    font-size:95px;
+	    line-height:114px;
+	    text-align:center;
+	    color:#808080;
+
+	    -webkit-transform: rotate(-90deg);
+	    -moz-transform: rotate(-90deg);
+	    display: block;
+	    position: absolute;
+	    right: -140px;
+	    top: 110px;
+	}
+	#empresas-beneficios h3{
+	    font-size:35px;
+	    line-height:42px;
+	    color:#ffffff;
+	    padding: 0;
 	}
 }
 
